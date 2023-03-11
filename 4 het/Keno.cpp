@@ -116,11 +116,11 @@ int main()
         }
     }
     
-    for (int i=0;i<20;i++)
+    /*for (int i=0;i<20;i++)
     {
         cout<<randsz[i]<<" ";
     }
-    cout<<endl;
+    cout<<endl;*/
     i=0;
     int jatsz[jatek];
     while (i<jatek)
