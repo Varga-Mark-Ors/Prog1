@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
-
+#include <stdio.h>     
+#include <stdlib.h>     
+#include <time.h>
 
 const int n=10;
 int jatek;
@@ -87,6 +89,8 @@ int has(int jarr[],int rarr[])
 
 int main()
 {
+    srand (time(NULL));
+    
     string nev;
     nev=szemely(nev);
     
